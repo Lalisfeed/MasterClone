@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 24px;
+    font-size: 16px;
+    cursor: default;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    transition: ease-in 0.2;
+}
+
+header {
+    background-color: #1b242f;
+    color: rgba(242, 244, 246, 0.6);
+}
+
+.head {
+    height: 80px;
+    display: flex;
+    top: 2px;
+    font-size: 17px;
+    filter: grayscale(100%);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 16px 50px;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+}
+
+#sel {
+    margin: 0px 10px;
+}
+
+.welcome-img {
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._SY1200_FMJPG_.jpg);
+    background-position: right center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 300px;
+    min-height: 480px;
+    text-rendering: optimizeLegibility;
+}
+
+.welcome-img:nth-of-type(2) {
+    background-position: 0% 100%;
+    background-image: url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-Living-Room-V2._CB524587855_SY1200_FMJPG_.jpg);
+}
+
+.welcome-img:nth-of-type(3) {
+    background-image: url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._CB1519820207_SY1200_FMJPG_.jpg);
+}
+
+.welcome-img:nth-of-type(4) {
+    background-position: 0% 100%;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SY1200_FMJPG_.jpg);
+}
+
+.welcome-img:nth-of-type(5) {
+    background-image: url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_SY1200_FMJPG_.jpg);
+}
+
+
+.welcome {
+    width: 100%;
+    line-height: 19px;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 683px;
+    padding: 50px 90px;
+}
+
+.welcom {
+    width: 100%;
+    line-height: 19px;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    min-height: 783px;
+    padding: 50px 90px;
+}
+
+.text {
+    max-width: 500px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 250px;
+}
+
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.text p {
+    font-size: 21px;
+    line-height: 25px;
+    margin: 10px;
+}
+
+.text button {
+    margin-top: 20px;
+    width: 280px;
+    border-width: 0px;
+    height: 54px;
+    background-color: #0f79af;
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (max-width:790px) {
+    .welcome, .welcom {
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.text {
+    text-align: center;
+}
+
+}
