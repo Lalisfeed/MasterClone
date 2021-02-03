@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+header {
+    width: 100vw;
+    height: 44px;
+    position: fixed;
+    z-index: 10;
+    color: #ccc;
+    background:rgba(0, 0, 0, 0.94);
+    box-sizing: content-box;
+    display: block;
+    margin: auto;
+    transition: ease-in 0.1s;
+}
+
+.head-part {
+    box-sizing: content-box;
+    justify-self: center;
+    max-width: 1024px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0px 10px;
+    margin: auto;
+}
+
+.menu, .icon-1 , .icon-2, .ser, .krt {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.opts {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 850px) {
+    .icon-1 {
+        display: contents;
+    }
+
+    .icon-2, .menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .opts, .ser {
+        display: none;
+    }
+
+    .icon-1 {
+        display: none;
+    }
+
+    .icon-2 {
+        display: contents;
+    }
+}
+
+.landed {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    transition: ease-in 0.1s;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
+    letter-spacing: -0.096px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    letter-spacing: 0.216px;
+}
+
+p {
+    color: #86868b;
+    margin-top: 10px;
+}
+
+.lander {
+    width: 100%;
+    height: inherit;
+    padding-top: 100px;
+}
+.landed:nth-of-type(1) {
+    color: #000;
+    background-image: url(./src/iphone__large.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.landed:nth-of-type(2) {
+    margin-top: 10px;
+    color: #fff;
+    background-position: 50% 90%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#land-2 {
+    height: inherit;
+    width: inherit;
+    background-image: url(./src/iphone_12_pro_large.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.landed:nth-of-type(3) {
+    height: 60vh;
+    color: #fff;
+    margin-top: 10px;
+    background-image: url(./src/macbookair_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    margin-top: 16px;
+}
+
+td {
+    font-size: 19px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.057px;
+    padding: 0px 10px;
+}
+
+td a {
+    color:rgb(0, 102, 204);
+    text-decoration: none;
+}
+
+a span {
+    font-size: 20px;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.seas {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.headph, .watches {
+    flex: 1;
+    padding-top: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.headph {
+    background-image: url(./src/tile_airpods_max.jpg);
+}
+
+
+.watches {
+    color: #fff;
+    background-image: url(./src/hero_watch_black.jpg);
+}
+
+.wchtxt {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+
+h3 {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+}
+
+.watch {
+    backdrop-filter: gray(0%);
+}
+
+@media screen and (max-width: 730px) {
+    .seas {
+        flex-direction: column;
+        height: 1100px;
+    }
+}
+
+/* apple landing page */
