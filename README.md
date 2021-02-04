@@ -2,8 +2,8 @@
 
 ###  All links to the Web Clones are here.
 
-* [Apple Landing Page](https://Lalisfgithub.io/MasterClone/Apple-Landing-Htmlindex.html)
+* [Apple Landing Page](https://Lalisfeed.github.io/MasterClone/Apple-Landing-HtmlCss/index.html)
 
-* [AmazonPrime Landing Page](https://Lalisfgithub.io/MasterClAmazonPrime-Landing-HtmlCss/index.html)
+* [AmazonPrime Landing Page](https://Lalisfeed.github.io/MasterClone/AmazonPrime-Landing-HtmlCss/index.html)
   
-* [Tesla Landing Page](https://Lalisfgithub.io/MasterClone/Tesla-Landing-Htmlindex.html)
+* [Tesla Landing Page](https://Lalisfeed.github.io/MasterClone/Tesla-Landing-HtmlCss/index.html)
