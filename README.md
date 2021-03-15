@@ -7,3 +7,5 @@
 * [AmazonPrime Landing Page](https://Lalisfeed.github.io/MasterClone/AmazonPrime-Landing-HtmlCss/index.html)
   
 * [Tesla Landing Page](https://Lalisfeed.github.io/MasterClone/Tesla-Landing-HtmlCss/index.html)
+
+* [Bitcoin VSRC](https://Lalisfeed.github.io/MasterClone/Bitcoin-VSRC/index.html)
