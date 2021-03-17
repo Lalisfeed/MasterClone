@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.support {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background: #f7931a;
+    color: #fff;
+}
+
+.btc-header {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.btc-logo {
+    width: 132px;
+    height: 30px;
+    margin: 10px;
+}
+
+.btc-lang {
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    padding: 3px;
+    background-color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.lang-stl {
+    background-color: #fff;
+    color: #444;
+    outline: none;
+}
+
+.btc-info {
+    width: 100%;
+    padding: 10px;
+    min-height: 30vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btc-cen-info {
+    max-width: 800px;
+    text-align: center;
+    letter-spacing: 1.4px;
+}
+
+.btc-slt {
+    width: 100%;
+    max-height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btc-btn-slt {
+    width: 290px;
+    height: 55px;
+    background: #fff;
+    color: #f7931a;
+    border: 1px solid #f7931a;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+#btc-org {
+    background-color: #f7931a;
+    color: #fff;
+}
+
+.btc-btn-slt:hover {
+    opacity: 0.93;
+}
+
+.btc-overview {
+    background-size: contain;
+    padding: 150px 0px 100px 0px;
+    width: 100%;
+    background-image: url('https://bitcoin.org/img/hero/overview-tablet.svg?1528322191');
+}
+
+
+.btc-ovv {
+    width: 100%;
+    height: 140px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.btc-type {
+    width: 100%;
+    height: auto;
+}
+
+.btc-cen {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.btc-obj {
+    width: 216px;
+    height: 200px;
+    background: #090c14;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+@media (max-width: 861px) {
+    .support {
+        display: none;
+    }
+    .btc-info {
+        height: 200px;
+        font-size: 2rem;
+        text-align: center;
+        padding: 30px;
+    }
+    .btn-2clk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+    .btc-cen {
+        flex-direction: column;
+    }
+
+    .btc-overview {
+        background-size: cover;
+        padding: 150px 0px 50px 0px;
+    }
+
+    .btc-obj {
+        margin: 20px;
+    }
+}
+
+.btc-img {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.btc-obj-info {
+    flex: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.btc-lm a {
+    text-decoration: none;
+    color: #777;
+}
+
+.btc-obj p {
+    font-size: 20px;
+}
